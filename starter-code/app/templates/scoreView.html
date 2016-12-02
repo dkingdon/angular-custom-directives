@@ -1,0 +1,6 @@
+<section class='pull-right' id="points" ng-controller="PlayersController as players">
+  <ul>
+    <li ng-repeat="player in players.players">
+      <strong>{{player.name}}:</strong> {{player.points}} points</li>
+  </ul>
+</section>

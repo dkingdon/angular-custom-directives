@@ -14,6 +14,10 @@ header {
   margin-bottom: 1.618rem;
 }
 
+.pull-right {
+  float: right;
+}
+
 header.navbar {
   border-radius: 0;
 }
@@ -22,6 +26,7 @@ h1 {
   font-weight: bold;
   letter-spacing: -2px;
   max-width: 100px;
+  float: left;
 }
 h1:after, .card h6:after {
   content: "™";
